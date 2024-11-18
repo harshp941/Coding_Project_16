@@ -1,5 +1,5 @@
 import React from 'react';
-
+// this function helps with the product list
 function ProductItem({ product }) {
   return (
     <div className="product-item">

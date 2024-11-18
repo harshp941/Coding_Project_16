@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ProductList from './ProductList';
 import AddProductForm from './AddProductForm';
 
-function App() {
+function newApp() {
   //  product list
   const [products, setProducts] = useState([
     { id: 1, name: 'Corona Lite', price: '$100', description: 'this is a low calorie version of the famous Corona ' },
@@ -18,7 +18,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="newApp">
       <h1>Product Dashboard</h1>
       <AddProductForm addProduct={addProduct} />
       <ProductList products={products} />
