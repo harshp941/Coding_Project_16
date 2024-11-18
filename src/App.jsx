@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { ProductList } from './components/ProductList';
+import {ProductItem} from './components/ProductItem';
 import { AddProductForm } from './components/AddProductForm';
 import './App.css'
 
